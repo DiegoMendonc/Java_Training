@@ -1,3 +1,4 @@
+package ExercíciosFaculdade;
 import javax.swing.JOptionPane;
 
 class ProgRepetição

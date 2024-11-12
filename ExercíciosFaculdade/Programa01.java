@@ -1,3 +1,4 @@
+package ExercíciosFaculdade;
 //Salvar como programa01.jav
 class Programa01
 {
