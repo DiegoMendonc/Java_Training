@@ -6,10 +6,10 @@ import java.time.LocalDateTime;
 
 public class PessoaTeste{
 
-    @Test
-    void deveCalcularIdadeCorretamente() {
+    @Test  // -> Anotação é primordial para testar
+    void deveCalcularIdadeCorretamente() {  // -> Cria um cenário de teste
         Pessoa jessica = new Pessoa("Jéssica", LocalDateTime.of(2000, 1, 11, 15, 0));
-        Assertions.assertEquals(22,jessica.getIdade());
+        Assertions.assertEquals(22,jessica.getIdade()); // -> Executa a validação informada
     }
 
     @Test
@@ -19,6 +19,6 @@ public class PessoaTeste{
 
         Pessoa joao = new Pessoa("João", LocalDateTime.now());
         Assertions.assertFalse(joao.ehMaiorIdade());
-        
+
     }
 }
