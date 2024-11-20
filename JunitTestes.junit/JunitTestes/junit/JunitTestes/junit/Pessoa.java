@@ -1,9 +1,7 @@
-package JUnit;
-
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
-public class Pessoa{
+public class Pessoa {
 
     private String nome;
     private LocalDateTime nascimento;
