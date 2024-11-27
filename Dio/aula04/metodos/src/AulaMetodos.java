@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Metodos {
+public class AulaMetodos {
 
     public int somar(int num1, int num2){ //Método de soma
         return  num1 + num2;
@@ -13,7 +13,7 @@ public class Metodos {
 
         System.out.println("\nDigite o segundo número: ");
         int n2 = scanner.nextInt();
-        Metodos calc = new Metodos();
+        AulaMetodos calc = new AulaMetodos();
         int resultadoSomar = calc.somar(n1, n2);
 
         System.out.println("Deseja realizar a soma dos valores? \n");
