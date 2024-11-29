@@ -18,6 +18,7 @@ public class AboutMe {
 
         System.out.println("Qual é sua altura? ");
         double altura = scanner.nextDouble();
+
         System.out.println("\n\n" + linha.repeat(50) + "\n");
 
         System.out.println("Olá " + nome);
