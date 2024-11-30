@@ -8,11 +8,21 @@ public class SistemaMedida {
         String sigla = scanner.next();
 
         switch (sigla) {
-            case "P":
-                
+            case "P":{
+                System.out.println("PEQUENO");
                 break;
-            default:
-                throw new AssertionError();
+            }
+            case "M":{
+                System.out.println("MÉDIO");
+                break;
+            }
+            case "G":{
+                System.out.println("GRANDE");
+                break;
+            }
+            default:{
+                System.out.println("INDEFINIDO");
+            }
         }
-    }    
+    }
 }
