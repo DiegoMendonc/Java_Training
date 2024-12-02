@@ -14,7 +14,7 @@ public class ExemploFor {
         
             int choice = scanner.nextInt();
     
-                if(choice == 1) {
+                if (choice == 1) {
                     System.out.println("Vamos contar os carneirinhos!\n");
                     for (int carneirinhos = 0; carneirinhos <= 20; carneirinhos ++){
                         System.out.println(carneirinhos + " Carneirinho(s)");
