@@ -11,6 +11,8 @@ public class ProcessoSeletivo {
         //analisarCandidato(2500.0);
         //analisarCandidato(2000.0);
         selecaoCandidatos();
+
+        System.out.println(linha.repeat(60));
     }
 
     static void selecaoCandidatos() {
@@ -26,8 +28,11 @@ public class ProcessoSeletivo {
 
             System.out.println("O cadidato " + candidato + " solicitou este valor de salário: R$" + salarioPretendido);
             if (salarioBase >= salarioPretendido) {
-                System.out.println("O candidato " + candidato + " foi selecionado para a vaga");
+                System.out.println("O candidato " + candidato + " foi selecionado para a vaga\n");
                 candidatosSelecionados++;
+            }
+            else {
+                System.out.println("O candidato " + candidato + " não foi selecionado para a vaga\n");
             }
             candidatoAtual++;
         }
